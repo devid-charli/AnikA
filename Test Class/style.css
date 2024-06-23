@@ -1,0 +1,86 @@
+.box{
+    width: 300px;
+    height: 100px;
+    margin:100px auto;
+    background:linear-gradient(to right bottom, rgb(228, 83, 228),rgb(45, 18, 74));
+    box-shadow: 5px 5px 9px rebeccapurple,-5px -5px 9px rebeccapurple;
+    transition-property: all;
+    transition-duration: 1sec;
+    }
+.box:hover{
+    width: 150px;
+    height: 150px;
+    transition: all;
+   }
+h1{
+    font-style:bold;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: -10px 10px 9px rgb(58, 52, 52);
+}
+.box1{
+    width: 500px;
+    height: 300px;
+    margin:100px auto;
+    position: relative;
+    animation: circle 10s 1s infinite both;}
+@keyframes circle{
+    0%{
+        background-color: rgb(122, 212, 62);
+    }
+    25%{
+        background-color: rgb(48, 165, 33);
+    }
+    50%{
+        background-color: rgb(58, 145, 17);
+    }
+    75%{background-color: rgb(13, 99, 34);
+    
+    }
+    100%{
+        background-color: rgb(10, 49, 5);
+        transform: rotate(360deg);
+    }}
+
+.box2{
+    width: 300px;
+    height: 300px;
+    border: 5px;color:darkmagenta;
+    border-style:groove;
+    border-radius: 50%;
+    margin: 100px auto;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    animation: flag 10s 1s infinite forwards;
+
+}
+
+@keyframes flag{
+    0%{
+   border-color: rgb(196, 30, 30);
+
+    }
+    25%{
+   background-color: rgb(243, 68, 24);
+    }
+    50%{
+  border-color: rgb(167, 28, 28);
+  transform: scale(0.5);
+    
+    }
+    75%{
+   background-color: rgb(250, 6, 6);
+   transform: translate(4s)
+    }
+    100%{
+   border-color: rgb(133, 3, 3);
+   }}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-image: url(social.png);
+    background-position:130%;
+    border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+ion-icon{
+    width: 100px;
+    height:100px ;
+    color: rgb(231, 70, 12);
+}
+h1{
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
